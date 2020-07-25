@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Business Website</title>
+<script >
+	function clickme()
+	{
+		var a=document.getElementById('ab').value;
+		var b=document.getElementById('abc').value;
+		var c=document.getElementById('abcd').value;
+
+		
+		if(a=="")
+		{ 
+			alert('all field required and must be in their data type');
+
+			return false;
+		}
+
+    else
+    {
+	document.getElementById('contact1').innerHTML="<strong>thank you for joining.</strong>";
+}
+}
+</script>
+<link rel="stylesheet" type="text/css" href="khan.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
+</head>
+<body>
+<!-----NavigationBar---->
+<section id="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#"><h3>Sambhav Institute</h3><!--<img src="images/logo.png">--></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#slider">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#team" >OUR TEAM</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#price" >PRICE PLANS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#testimonials" >TESTIMONIALS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#contact" >CONTACT</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+<!------slider------>
+<div id="slider">
+	<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img  class="d-block w-100" src="images/banner1.jpg" >
+      <div class="carousel-caption">
+      	<h5>Base is learning</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img  class="d-block w-100"  src="images/banner2.jpg">
+      <div class="carousel-caption">
+      	<h5>Intermediate is all about thinking</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 " src="images/banner3.jpg" >
+      <div class="carousel-caption">
+      	<h5>Final is practising and working</h5>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!----About------>
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<h2> About Us</h2>
+<div class="about-content">
+	As all you know Education is the process which aids learning, acquiring knowledge and skills to one's character.
+ Education upgrades the thinking of society and helps to uproot social evils..this institution help us not only gain knowledge about book but also how it is related to your life . Our main focus on first of building base than implement it in further step. 
+</div>
+<button type="button" class="btn btn-primary"> Read more>> </button>	
+</div>
+<div class="col-md-6 skills-bar">
+	<p>basic knowledge progress </p>
+	<div class="progress">
+	<div class="progress-bar" style="width: 80%;">80%</div>
+	</div>
+	<p>thinking progress </p>
+	<div class="progress">
+	<div class="progress-bar" style="width: 85%;">85%</div>
+</div>
+<p>practising progress</p>
+<div class="progress">
+	<div class="progress-bar" style="width: 75%;">75%</div>
+</div>
+<p>gaining progress</p>
+<div class="progress">
+	<div class="progress-bar" style="width: 70%;">70%</div>
+
+</div>
+</div>
+</div>
+</div>	
+</section>
+<!----services---->
+<section id="services">
+<div class="container">
+	<h1>Our Services</h1>
+	<div class="row services">
+		<div class="col-md-3 text-center">
+			<div class="icon">
+				<i class="fa fa-calculator" ></i>
+			</div>
+		<h3>Mathematics</h3>
+		<p>Mathematics is the music of reason.Pure mathematics is, in its way, the poetry of logical ideas.Math is beautiful. But sometimes, this can be hard to see, and even harder to convey to students who don’t — yet — share your passion.</p>
+	
+	</div>
+	<div class="col-md-3 text-center">
+			<div class="icon">
+				<i class="fa fa-superpowers"></i>
+			</div>
+		<h3>Physics</h3>
+		<p>Physics is a branch of science.  The main goal of physics is to explain how things move in space and time and understand how the universe behaves. It studies matter, forces and their effects.</p>
+	</div>
+	<div class="col-md-3 text-center">
+			<div class="icon">
+				<i class="fa fa-linode"></i>
+			</div>
+		<h3>Chemistry</h3>
+		<p>It's important to understand chemistry if you are studying any of the sciences because all of the sciences involve matter and the interactions between types of matter.</p>
+	</div>
+	<div class="col-md-3 text-center">
+			<div class="icon">
+				<i class="fa fa-thermometer-full"></i>
+			</div>
+		<h3>Biology</h3>
+		<p>Biology is the study of the complex things in the Universe.The development of biology is going to destroy to some extent our traditional grounds for ethical belief and it is not easy to see what to put in their place.</p>
+</div>		
+</div>
+</div>	
+</section>
+<!---- team member---->
+<section id="team">
+<div class="container">
+<h1>Our Team</h1>
+<div class="row">
+<div class="col-md-3 profile-pic text-center">
+<div class="img-box">
+<img src="images/akshay.jpg"class="img-responsive">
+<ul>
+	<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+	<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+	<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+</ul>
+</div>
+<h2>James</h2>
+<h3> mathematics </h3>
+<p>Lets play with number.lets get to fight with numbers,calculus by acctivating the brain with new way. </p>	
+</div>
+<div class="col-md-3 profile-pic text-center">
+<div class="img-box">
+<img src="images/brush.jpg"class="img-responsive">
+<ul>
+	<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+	<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+	<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+</ul>
+</div>
+<h2>Bruce </h2>
+<h3>physics</h3>
+<p>lets play with physics in some different way with help of books and practical.</p>	
+</div>
+<div class="col-md-3 profile-pic text-center">
+<div class="img-box">
+<img src="images/ron.jpg"class="img-responsive">
+<ul>
+	<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+	<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+	<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+</ul>
+</div>
+<h2>Eryk </h2>
+<h3>chemistry</h3>
+<p>chemicals does chemical fusion in brain but most intersting. </p>	
+</div>
+<div class="col-md-3 profile-pic text-center">
+<div class="img-box">
+<img src="images/abcd.jpg"class="img-responsive ab">
+<ul>
+	<a href="#"><li><i class="fa fa-facebook"></i></li></a>
+	<a href="#"><li><i class="fa fa-twitter"></i></li></a>
+	<a href="#"><li><i class="fa fa-linkedin"></i></li></a>
+</ul>
+</div>
+<h2>Jessicca</h2>
+<h3>bioogy</h3>
+<p>lets known yourself physically.structure and growth of urself.</p>	
+</div>	
+</div>	
+</div>	
+</section>
+<!----promo------->
+<section id="promo">
+<div class="container">
+	<p>Get knowledge of our institute and infrastructure.</p>
+	<a href="#details"  class="btn btn-primary">Contact Us</a>
+</div>
+</section>
+<!------price-------->
+<section id="price">
+<div class="container">
+<h1>Price plan</h1>
+<div class="row">
+        <div class="col-lg-3">
+            <div class="single-price">
+              <div class="price-head">
+                     <h2>Mathematics</h2>
+                      <p>$0<span>for first week</span></p>	
+                         </div>
+         <div class="price-content">
+	          <ul>
+	              <li><i class="fa fa-check-circle"></i>$200 monthly</li>
+	           <li><i class="fa fa-check-circle"></i>$1300 annually</li>
+	               <li><i class="fa fa-check-circle" ></i>$700 for jee neet crack course</li>	
+	             <li><i class="fa fa-times-circle" ></i>online clsses</li>
+	            <!--<li><i class="fa fa-times-circle" ></i>Unlimited Support </li>--->
+	          </ul>
+            </div>
+<div class="price-button">
+<a class="buy-btn" href="#contact">join now</a>	
+           </div>	
+         </div>	
+       </div>
+
+       <div class="col-lg-3">
+       	<div class="single-price">
+<div class="price-head">
+<h2>Physics</h2>
+<p>$0<span>for first week</span></p>	
+</div>
+<div class="price-content">
+	<ul>
+	<li><i class="fa fa-check-circle"></i>$150 monthly</li>
+	<li><i class="fa fa-check-circle"></i>$1200 annually</li>
+	<li><i class="fa fa-check-circle" ></i>$600 for jee-neet crack course</li>	
+	<li><i class="fa fa-times-circle" ></i>online classes</li>
+	<!--<li><i class="fa fa-times-circle" ></i>Unlimited Support </li>-->
+	</ul>
+</div>
+<div class="price-button">
+<a class="buy-btn" href="#contact">join now</a>	
+           </div>	
+         </div>	
+      </div>
+       <div class="col-lg-3">
+<div class="single-price">
+<div class="price-head">
+<h2>Chemistry</h2>
+<p>$0<span> for first week</span></p>	
+</div>
+<div class="price-content">
+	<ul>
+	<li><i class="fa fa-check-circle"></i>$150 monthly</li>
+	<li><i class="fa fa-check-circle"></i>$1200 annually</li>
+	<li><i class="fa fa-check-circle" ></i>$600 for jee-neet crack course</li>	
+	<li><i class="fa fa-check-circle" ></i>online classes</li>
+	<!--<li><i class="fa fa-times-circle" ></i>Unlimited Support </li>-->
+	</ul>
+</div>
+<div class="price-button">
+<a class="buy-btn" href="#contact">join now</a>	
+           </div>	
+         </div>	
+      </div>
+       <div class="col-lg-3">
+<div class="single-price">
+<div class="price-head">
+<h2>Biology</h2>
+<p>$0<span>for first week</span></p>	
+</div>
+<div class="price-content">
+	<ul>
+	<li><i class="fa fa-check-circle"></i>$150 monthly</li>
+	<li><i class="fa fa-check-circle"></i>$1200 annually</li>
+	<li><i class="fa fa-check-circle" ></i>$600 for jee-neet crack course</li>	
+	<li><i class="fa fa-check-circle" ></i>online classes</li>
+	<!--<li><i class="fa fa-check-circle" ></i>Unlimited Support </li>-->
+	</ul>
+</div>
+<div class="price-button">
+<a class="buy-btn" href="#contact">join now</a>	
+           </div>	
+         </div>	
+       </div>													
+     </div>
+</div>
+</section>
+<!----testimonials---->
+<section id="testimonials">
+    <div class="container">
+	 <h1>Testimonials</h1>
+	<!-- <p class="text-center">Subscribe For More Information</p>-->
+	 <div class="row">
+	 <div class="col-md-4 text-center">
+	 <div class="profile">
+	 <img src="images/user1.jpg"   class="user">
+	 <blockquote>Money can not always help you in life, education is most precious in the world to explore u in society and get your value in society.</blockquote>
+	 <h3>Alphonso<span>Founder of sambhav institute</span></h3>	
+	 </div>	
+	 </div>
+	 <div class="col-md-4 text-center">
+	 <div class="profile">
+	 <img src="images/user2.jpg"   class="user">
+	 <blockquote>knowledge comes from thinking and sharing your ideas and invest your thought on a right place.our experts build your mentally knowledge for life long. </blockquote>
+	 <h3>Eldwin<span>Manager at sambhav institute</span></h3>	
+	 </div>	
+	 </div>	
+	 <div class="col-md-4 text-center">
+	 <div class="profile">
+	 <img src="images/user3.jpg"   class="user">
+	 <blockquote>for any inquiry and details of our institute and management, i am available for this our contact detaails given to you.you achieve better that's our goal.  </blockquote>
+	 <h3>Kakegurai<span>handler of sambhav institute</span></h3>	
+	 </div>	
+	 </div>
+	 </div>
+    </div>	
+</section>
+<!---contact----->
+<section id="contact">
+	<div class="container">
+		<h1>Get in Touch</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<p>your information</p>
+			<form class="contact-form"  onsubmit="clickme()" >
+				<div class="form-group">
+					<input type="text" id="ab" class="form-control" placeholder="Your-name" required>
+				</div>
+				<div class="form-group">
+					<input type="number" id="abc" class="form-control" placeholder="Phone no."required>
+				</div>
+				<div class="form-group">
+					<input type="email"  id="abcd" class="form-control" placeholder="email-id" required>
+				</div>
+                 <div class="form-group">
+					<textarea class="form-control"  row="4" placeholder="Message"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary" onclick="clickme()">Submit</button><span id="contact1"></span>
+			</form>	
+			</div>
+			<div class="col-md-6 contact-info">
+			<p id="details" >our institute details</p>	
+			<div class="follow"><b> Address:</b><i class="fa fa-map-marker"></i>
+             XYZ Road,Banglore, IN</div>	
+			<div class="follow"><b>Phone:</b><i class="fa fa-phone"></i>
+            +1 1234567890</div>	
+			<div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i>
+            example@website.com</div>	
+			<div class="follow"><label><b>Get Social:</b></label>
+				<a href="#"><i class="fa fa-facebook"></i></a> 
+				<a href="#"><i class="fa fa-youtube-play"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google-plus"></i></a>
+			</div>		
+			</div>
+		</div>
+	</div>
+	
+</section>
+<!----footer---->
+<section id="footer">
+<div class="container text-center">
+	<p> Made with <i class="fa fa-heart-o"></i> by sameer khan</p>
+</div>	
+</section>	
+</body>
+</html>
